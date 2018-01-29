@@ -1,0 +1,5 @@
+---
+
+languagetool_server_password: my-password
+languagetool_server_maxTextLength: 50000
+languagetool_server_maxCheckThreads: 10
