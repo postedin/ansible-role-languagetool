@@ -1,1 +1,21 @@
----
+galaxy_info:
+  author: Robert Clancy
+  description: Role to install languagetool
+  company: Postedin SpA (https://postedin.com)
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial
+
+  galaxy_tags:
+    - languagetool
+    - grammar
+    - spellcheck
+
+dependencies:
+  - geerlingguy.java
