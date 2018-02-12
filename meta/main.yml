@@ -2,20 +2,29 @@ galaxy_info:
   author: Robert Clancy
   description: Role to install languagetool
   company: Postedin SpA (https://postedin.com)
-
+  issue_tracker_url: https://github.com/postedin/ansible-role-languagetool/issues
   license: MIT
-
   min_ansible_version: 2.2
-
   platforms:
+    - name: EL
+      versions:
+        - 6
+        - 7
+    - name: Fedora
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
     - name: Ubuntu
       versions:
-        - xenial
-
+        - all
+    - name: FreeBSD
+      versions:
+        - 10.2
   galaxy_tags:
     - languagetool
     - grammar
     - spellcheck
-
 dependencies:
   - geerlingguy.java
